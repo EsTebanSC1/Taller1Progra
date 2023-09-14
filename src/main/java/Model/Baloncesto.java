@@ -2,9 +2,9 @@ package Model;
 
 public class Baloncesto extends Deporte{
     private String tipocancha;
-    private int tiempos;
+    private String tiempos;
     public Baloncesto(String nombre) {
-        super(nombre);
+        super(nombre, "Interior", 4);
         this.tiempos=tiempos;
         this.tipocancha=tipocancha;
     }

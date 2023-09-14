@@ -4,7 +4,7 @@ public class Tenis extends Deporte{
     private String superficie;
     private String tipopartido;
     public Tenis(String nombre) {
-        super(nombre);
+        super(nombre, "Interior", 4);
         this.superficie=superficie;
         this.tipopartido=tipopartido;
     }
