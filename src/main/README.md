@@ -1,0 +1,2 @@
+En esta problematica se busca gestionar un club deportivo el cual contiene diferentes equipos de diferentes deportes , cada equpo tiene jugadores , los cuales tienen su respectivo deporte asociado , y un entrenador. ambos deben registrarse en el club con sus respectivos datos.
+cada deporte tiene sus propias condiciones , ya sea tipo de cancha , numero de tiempos , etc.
