@@ -3,7 +3,7 @@ package Model;
 public class Entrenador extends Deportista{
 private String experiencia;
 private String especialidad;
-    public Entrenador(String nombre, String apellido, String email, String telefono, String deporte, String rol) {
+    public Entrenador(String nombre, String apellido, String email, String telefono, Deporte futbol, String deporte, int i, String rol) {
         super(nombre, apellido, email, telefono, deporte, rol);
         this.especialidad=especialidad;
         this.experiencia=experiencia;

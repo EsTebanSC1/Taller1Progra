@@ -1,7 +1,7 @@
 package Model;
 import java.util.ArrayList;
 import java.util.List;
-class Equipo {
+public class Equipo {
     private String nombre;
     private List<Deportista> deportistas;
     private Deporte deporte;
@@ -30,5 +30,9 @@ class Equipo {
                 "nombre='" + nombre + '\'' +
                 ", deporte=" + deporte +
                 '}';
+    }
+
+    public void asignarEntrenador(Entrenador entrenador) {
+        this.entrenador = entrenador;
     }
 }

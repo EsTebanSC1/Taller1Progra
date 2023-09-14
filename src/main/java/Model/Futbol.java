@@ -5,7 +5,7 @@ public class Futbol extends Deporte {
     private String localia;
 
     public Futbol(String nombre) {
-        super(nombre);
+        super(nombre, "Interior", 4);
         this.localia=localia;
         this.tipocesped=tipocesped;
     }

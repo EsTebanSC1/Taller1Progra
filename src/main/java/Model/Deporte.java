@@ -1,10 +1,13 @@
 package Model;
 
-class Deporte {
+public class Deporte {
     private String nombre;
 
-    public Deporte(String nombre) {
+    public Deporte(String nombre, String interior, String i) {
         this.nombre = nombre;
+    }
+
+    public Deporte(String nombre, String interior, int i) {
     }
 
     public String getNombre() {
